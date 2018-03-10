@@ -24,7 +24,7 @@ int	check_victory(int *, int);
 int	game_tab(int *, char *, char *);
 int	*parsing_file(char **);
 int	player_turn(int *);
-int	print_error(const char const *);
+int	print_error(char const *const);
 int	robot_turn(int *);
 int	robot_xor(int *, int);
 void	display_game_start(int *);
